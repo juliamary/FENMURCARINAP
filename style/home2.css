@@ -1,0 +1,156 @@
+html {
+  min-height: 100%;
+}
+body {
+  color: white;
+  font-family: 'museo-sans';
+  height: 100vh;
+  min-height: 100%;
+}
+a {
+  color: #ce48c2;
+}
+a:hover,
+a:focus,
+a:active {
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+  color: #b30000;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+* {
+  padding:0;
+  margin:0;
+}
+
+header {
+position:fixed;
+width:100%;
+background-color:#96418e;
+}
+
+#menu.cor.bar1{
+	background-color: #ecf0f1;
+}
+
+#menu.cor.bar2{
+	background-color: #ecf0f1;
+}
+
+#menu.cor.bar3{
+	background-color: #ecf0f1;
+}
+
+#sideNav-move{
+	width: 100vw;
+}
+
+.navbar-toggle{
+	background-color: #96418e;
+	border: 1px solid rgba(247, 246, 249, 0.97);
+}
+
+.navbar-toggle .icon-bar{
+	background: white;
+}
+
+header #nav {
+  background-color:#96418e;
+  width:100%;
+  max-width:1015px;
+  margin:0px auto;
+}
+header #nav ul {
+  overflow:hidden;
+  }
+header #nav ul li {
+  list-style:none;
+  }
+header #nav ul li a {
+  font-family: 'Varela Round', sans-serif;
+  text-decoration:none;
+  color:white;
+  padding:20px;
+  display:block;
+    }     
+header #nav ul li a:hover {
+  color:#fff7e7;
+  background-color:#ae89b5;
+  
+  }
+#logo-1{
+	position: absolute;
+}
+
+.notice-important{
+
+}
+
+#publica {
+  border:1px solid rgba(255,255,255,.3);
+  background-color:#96418e;
+  position:relative;
+
+}
+#publica2 {
+  border-bottom:1px solid rgba(197, 191, 191, 0.98);
+  background-color:#575757;
+
+}
+#multimedia {
+  background-color:#149b78;
+
+}
+      ul, ol {
+        list-style:none;
+      }
+        .nav { 
+      width:100%;
+      max-width:1600px;
+      }
+      
+      .nav > li {
+        float:left;
+      }
+      .nav li a {
+        width:100%;
+        max-width:1600px;
+        font-size:17px;
+        background-color:#96418e;
+        color:#fff;
+        text-decoration:none;
+        display:block;
+      }
+      
+      .nav li a:hover {
+        background-color:#149b78;
+      }
+      
+      .nav li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+      }
+      
+      .nav li:hover > ul {
+        display:block;
+      }
+      
+      .nav li ul li {
+        position:relative;
+      }
+      
+      .nav li ul li ul {
+        right:-140px;
+        top:0px;
+      }
+
+/*media querys = o mayor a 768*/
+@media (min-width: 768px)
+.navbar {
+    margin-bottom: 0;
+}
